@@ -47,7 +47,7 @@ def hitung_waktu():
     return hari
 
 # --- HALAMAN UTAMA ---
-st.title(f"Hai, {Nadia} Sayang 🌹")
+st.title(f"Hai, {NAMA_DIA}🌹")
 
 # Tab Menu
 tab1, tab2, tab3 = st.tabs(["🏠 Home", "💌 Surat", "📸 Galeri Kita"])

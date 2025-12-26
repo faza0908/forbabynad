@@ -97,7 +97,7 @@ with tab3:
     
     # Ganti Link Gambar di bawah ini dengan link foto asli kalian
     # Tips: Upload foto ke imgur.com atau taruh file foto di folder yang sama dengan app.py
-    col_a, col_b, col_c = st.columns(2)
+    col_a, col_b, col_c = st.columns(3)
     with col_a:
         st.image("https://cdn.discordapp.com/attachments/1424029736090472558/1453993479431651493/WhatsApp_Image_2025-12-26_at_13.07.44_1.jpeg?ex=694f7873&is=694e26f3&hm=7dfd4336997981d92761673eaa000e04944b2b872635cf6b5ab22828877206f8&", caption="Waktu kita jalan-jalan")
     with col_b:

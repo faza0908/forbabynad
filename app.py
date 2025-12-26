@@ -37,7 +37,7 @@ st.markdown("""
 NAMA_DIA = "Nadia Sayang"  # Ganti dengan panggilan sayang dia
 TANGGAL_JADIAN = datetime(2025, 12, 16) # Format: Tahun, Bulan, Tanggal
 URL_FOTO_COVER = "https://cdn.discordapp.com/attachments/1424029736090472558/1453993479989362853/WhatsApp_Image_2025-12-26_at_13.07.44.jpeg?ex=694f7873&is=694e26f3&hm=ff5aef37f1bf2321d819518eb2a7c50fc039d18df262ab7386ea2e1416ac981f&" # Bisa ganti link foto kalian berdua
-URL_LAGU = "https://open.spotify.com/embed/track/2Lhdl74nwwVGOE2Gvjs55u?utm_source=generator" # Link Embed Spotify (Opsional)
+URL_LAGU = "//open.spotify.com/embed/track/5b0NpyYAwW2dUGL08ir7Bg?utm_source=generator" # Link Embed Spotify (Opsional)
 
 # --- FUNGSI HITUNG HARI ---
 def hitung_waktu():
@@ -88,7 +88,8 @@ with tab2:
     
     # Musik (Opsional - Copy Embed Code dari Spotify)
     st.write("Dengerin lagu ini ya:")
-    st.markdown(f'<iframe style="border-radius:12px" src="{https:https://open.spotify.com/embed/track/2Lhdl74nwwVGOE2Gvjs55u?utm_source=generator}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe style="border-radius:12px" src="{//open.spotify.com/embed/track/0z7jhodL97W88al5OI1zh1?utm_source=generator}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
+
 
 with tab3:
     st.header("Kenangan Kita 📸")
@@ -96,7 +97,7 @@ with tab3:
     
     # Ganti Link Gambar di bawah ini dengan link foto asli kalian
     # Tips: Upload foto ke imgur.com atau taruh file foto di folder yang sama dengan app.py
-    col_a, col_b = st.columns(2)
+    col_a, col_b, col_c = st.columns(2)
     with col_a:
         st.image("https://cdn.discordapp.com/attachments/1424029736090472558/1453993479431651493/WhatsApp_Image_2025-12-26_at_13.07.44_1.jpeg?ex=694f7873&is=694e26f3&hm=7dfd4336997981d92761673eaa000e04944b2b872635cf6b5ab22828877206f8&", caption="Waktu kita jalan-jalan")
     with col_b:

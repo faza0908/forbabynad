@@ -4,12 +4,12 @@ from datetime import datetime
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
-    page_title="Untuk Kamu ❤️",
+    page_title="Untuk Kamu Sayang ❤️",
     page_icon="🌹",
     layout="centered"
 )
 
-# --- CSS SEDERHANA UNTUK TAMPILAN CANTIK ---
+# --- CSS SEDERHANA UNTUK TAMPILAN CANTIK --
 st.markdown("""
     <style>
     .stApp {
@@ -34,10 +34,10 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # --- VARIABEL YANG HARUS KAMU GANTI ---
-NAMA_DIA = "Cinta"  # Ganti dengan panggilan sayang dia
-TANGGAL_JADIAN = datetime(2023, 1, 1) # Format: Tahun, Bulan, Tanggal
-URL_FOTO_COVER = "https://images.unsplash.com/photo-1518199266791-5375a83190b7" # Bisa ganti link foto kalian berdua
-URL_LAGU = "https://open.spotify.com/embed/track/2Lhdl74nwwVGOE2Gvjs55u?utm_source=generator" # Link Embed Spotify (Opsional)
+NAMA_DIA = "Nadia Sayang"  # Ganti dengan panggilan sayang dia
+TANGGAL_JADIAN = datetime(2025, 12, 16) # Format: Tahun, Bulan, Tanggal
+URL_FOTO_COVER = "https://cdn.discordapp.com/attachments/1424029736090472558/1453993479989362853/WhatsApp_Image_2025-12-26_at_13.07.44.jpeg?ex=694f7873&is=694e26f3&hm=ff5aef37f1bf2321d819518eb2a7c50fc039d18df262ab7386ea2e1416ac981f&" # Bisa ganti link foto kalian berdua
+URL_LAGU = "https://open.spotify.com/embed/track/0z7jhodL97W88al5OI1zh1?utm_source=generator" # Link Embed Spotify (Opsional)
 
 # --- FUNGSI HITUNG HARI ---
 def hitung_waktu():
@@ -47,7 +47,7 @@ def hitung_waktu():
     return hari
 
 # --- HALAMAN UTAMA ---
-st.title(f"Hai, {NAMA_DIA}! 🌹")
+st.title(f"Hai, {Nadia} Sayang 🌹")
 
 # Tab Menu
 tab1, tab2, tab3 = st.tabs(["🏠 Home", "💌 Surat", "📸 Galeri Kita"])
@@ -88,7 +88,7 @@ with tab2:
     
     # Musik (Opsional - Copy Embed Code dari Spotify)
     st.write("Dengerin lagu ini ya:")
-    st.markdown(f'<iframe style="border-radius:12px" src="{URL_LAGU}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe style="border-radius:12px" src="{https://open.spotify.com/embed/track/0z7jhodL97W88al5OI1zh1?utm_source=generator}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
 
 with tab3:
     st.header("Kenangan Kita 📸")
@@ -98,13 +98,15 @@ with tab3:
     # Tips: Upload foto ke imgur.com atau taruh file foto di folder yang sama dengan app.py
     col_a, col_b = st.columns(2)
     with col_a:
-        st.image("https://images.unsplash.com/photo-1529333166437-7750a6dd5a70", caption="Waktu kita jalan-jalan")
+        st.image("https://cdn.discordapp.com/attachments/1424029736090472558/1453993479431651493/WhatsApp_Image_2025-12-26_at_13.07.44_1.jpeg?ex=694f7873&is=694e26f3&hm=7dfd4336997981d92761673eaa000e04944b2b872635cf6b5ab22828877206f8&", caption="Waktu kita jalan-jalan")
     with col_b:
-        st.image("https://images.unsplash.com/photo-1523438885200-e635ba2c371e", caption="Senyum kamu manis banget")
+        st.image("https://cdn.discordapp.com/attachments/1424029736090472558/1453993480819839069/WhatsApp_Image_2025-12-26_at_13.07.45_1.jpeg?ex=694f7873&is=694e26f3&hm=4d2538908ed0758e65898e70f135d48f70feec7679aa07567aab0f74cbe16203&", caption="Senyum kamu manis banget")
+    with col_b:
+        st.image("https://cdn.discordapp.com/attachments/1424029736090472558/1453993483793596446/WhatsApp_Image_2025-12-26_at_13.07.46.jpeg?ex=694f7874&is=694e26f4&hm=545b9ec2e60181b09e37a7e8fbb71a796160a3110b66b4c7c0466ed8a095699f&", caption="Mylovely Nadia")
 
     st.write("---")
     alasan = st.selectbox("Kenapa aku sayang kamu?", 
-                 ["Pilih alasannya...", "Kamu baik banget", "Senyum kamu bikin tenang", "Kamu selalu ada buat aku", "Masakan kamu enak (kalo bisa masak)"])
+                 ["Pilih alasannya...", "Kamu baik banget", "Senyum kamu bikin tenang", "Kamu selalu ada buat aku", "Masakan kamu enak"])
     
     if alasan != "Pilih alasannya...":
         st.write(f"Iya bener! **{alasan}** itu yang bikin aku jatuh cinta setiap hari.")
@@ -112,4 +114,4 @@ with tab3:
 
 # Footer
 st.write("---")
-st.caption("Dibuat dengan ❤️ menggunakan Python")
+st.caption("Dibuat dengan ❤️ menggunakan Hatinya Faza")

@@ -88,7 +88,7 @@ with tab2:
     
     # Musik (Opsional - Copy Embed Code dari Spotify)
     st.write("Dengerin lagu ini ya:")
-    st.markdown(f'<iframe style="border-radius:12px" src="{//open.spotify.com/embed/track/0z7jhodL97W88al5OI1zh1?utm_source=generator}" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
+    st.markdown(f'<iframe style="border-radius:12px" src="//open.spotify.com/embed/track/0z7jhodL97W88al5OI1zh1?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>', unsafe_allow_html=True)
 
 
 with tab3:
